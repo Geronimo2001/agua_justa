@@ -63,7 +63,6 @@ html, body { margin: 0; }
 .aj-result-status dt { color: var(--m); font-size: 12px; }
 .aj-result-status dd { margin: 2px 0 0; font-weight: 600; }
 .aj-evidence th[scope="row"] { position: static; color: var(--t); vertical-align: top; }
-.aj-evidence a, .aj-result-text a { color: var(--hue); text-underline-offset: 2px; }
 .aj-evidence caption { color: var(--m); font-size: 12px; text-align: left; padding-bottom: 4px; }
 .aj-result-limit { margin: 12px 0 0; color: var(--m); font-size: 13px; }
 @media (max-width: 560px) {
@@ -164,47 +163,46 @@ html, body { margin: 0; }
     <section class="aj-panel" id="resultados" role="tabpanel" aria-labelledby="tab-resultados" data-panel>
       <div class="aj-card aj-result">
         <p class="aj-result-label">12. Resultados del equipo de Ingeniería</p>
-        <h2>Hay evidencia técnica de contaminación fecal en el sector bajo del río</h2>
-        <p class="aj-result-text">Los análisis publicados documentan contaminación fecal en la cuenca baja y en la desembocadura del San Antonio. También se documentó un vertido cloacal en un arroyo que desemboca en el río, en Villa Carlos Paz.</p>
+        <h2>Se observó una descarga. La contaminación del agua queda sin confirmar.</h2>
+        <p class="aj-result-text">En la Salida 2, el equipo registró una descarga de agua con olor desagradable en un arroyo que desemboca en el río San Antonio. Es un indicio localizado de posible contaminación. El relevamiento incluye observaciones y testimonios. Para determinar la composición y el impacto de la descarga hacen falta mediciones del agua.</p>
         <dl class="aj-result-status">
-          <div><dt>¿Se documentó contaminación?</dt><dd>Sí, en sitios y fechas específicos.</dd></div>
-          <div><dt>¿Cuál es el estado actual del tramo?</dt><dd>Indeterminado con los datos disponibles.</dd></div>
+          <div><dt>¿Qué se verificó en campo?</dt><dd>Una descarga en un arroyo afluente.</dd></div>
+          <div><dt>¿Cuál es el estado del agua?</dt><dd>Indeterminado con los datos del relevamiento.</dd></div>
         </dl>
       </div>
 
       <div class="aj-card">
-        <h2>Qué muestran los análisis publicados</h2>
+        <h2>Qué encontró el equipo</h2>
         <div class="aj-table-wrap">
           <table class="aj-table aj-evidence">
-            <caption>Mediciones y hallazgos de estudios externos</caption>
-            <thead><tr><th scope="col">Lugar y período</th><th scope="col">Resultado</th><th scope="col">Fuente</th></tr></thead>
+            <caption>Datos del relevamiento original</caption>
+            <thead><tr><th scope="col">Registro</th><th scope="col">Resultado</th><th scope="col">Qué permite concluir</th></tr></thead>
             <tbody>
               <tr>
-                <th scope="row">Cuenca baja del San Antonio<br><span class="aj-card-note">Publicado en 2014</span></th>
-                <td>Se detectó <i>E. coli</i>, indicador de contaminación fecal, en 5 de 6 puntos muestreados entre Cuesta Blanca y el embalse San Roque.</td>
-                <td><a href="https://toxicologia.org.ar/wp-content/uploads/2020/08/Acta-2014-v22-suplemento.alta-OK.pdf">De La Cruz Thea y Pinotti (UNC), p. 16</a></td>
+                <th scope="row">Observación de campo<br><span class="aj-card-note">Salida 2</span></th>
+                <td>Se observó una instalación de bombeo y agua con olor desagradable en un arroyo entre un camping y un barrio privado.</td>
+                <td>Se ubicó un punto para muestrear. El origen y la composición de la descarga siguen por verificar.</td>
               </tr>
               <tr>
-                <th scope="row">Desembocadura del San Antonio<br><span class="aj-card-note">Julio 2013 a marzo 2014</span></th>
-                <td>Los seis recuentos publicados de coliformes fecales oscilaron entre <strong>230 y 4.600 NMP/100 mL</strong>. El máximo se midió en febrero de 2014.</td>
-                <td><a href="https://www.ina.gob.ar/ifrh-2014/Eje2/2.08.pdf">CEPROCOR, tabla 4</a></td>
+                <th scope="row">Cloacas y efluentes<br><span class="aj-card-note">Salidas 1 y 2</span></th>
+                <td><strong>4 de 8 entrevistas</strong> mencionaron cloacas o efluentes cloacales.</td>
+                <td>Es un problema señalado en ambas salidas. Los testimonios ayudan a identificar sectores para investigar.</td>
               </tr>
               <tr>
-                <th scope="row">Arroyo Huahuas Mayun<br><span class="aj-card-note">Villa Carlos Paz, 2023</span></th>
-                <td>Un estudio de la UNC, citado por el municipio, documentó un vertido cloacal en este afluente del río e informó que el efluente superó límites provinciales de descarga en parámetros químicos y biológicos.</td>
-                <td><a href="https://villacarlospaz.gov.ar/detallenoticia.php?id=12680">Municipalidad de Villa Carlos Paz</a></td>
+                <th scope="row">Basura y residuos sólidos<br><span class="aj-card-note">Salidas 1 y 2</span></th>
+                <td><strong>5 de 8 entrevistas</strong> mencionaron basura o residuos sólidos en el río.</td>
+                <td>Los testimonios describen un problema de residuos visibles. La calidad del agua requiere mediciones por separado.</td>
               </tr>
             </tbody>
           </table>
         </div>
-        <p class="aj-result-limit">NMP significa «número más probable», una estimación de la cantidad de microorganismos. Los límites de descarga del efluente se aplican al vertido. Los valores de la desembocadura corresponden al agua del cuerpo receptor.</p>
+        <p class="aj-result-limit">Se contó cada entrevista una vez por tema. Una entrevista puede aparecer en ambos recuentos.</p>
       </div>
 
       <div class="aj-card">
-        <h2>Qué aporta el relevamiento y qué falta medir</h2>
-        <p class="aj-result-text">En la Salida 2, el equipo registró una descarga con olor desagradable en un arroyo que llega al río. La observación y las entrevistas ayudan a elegir dónde tomar muestras. El origen de esa descarga queda por verificar.</p>
-        <p class="aj-result-text">En junio de 2026 el municipio informó la desactivación de las instalaciones de tratamiento de Altos del Valle. El monitoreo del INA de octubre de 2026 describe el embalse y el caudal de sus afluentes. Para evaluar si persiste la contaminación fecal en el tramo estudiado hacen falta resultados microbiológicos recientes por punto. <a href="https://villacarlospaz.gov.ar/detallenoticia.php?id=12680">Comunicado municipal</a> · <a href="https://www.ina.gov.ar/archivos/layca/INA-CIRSA-IMSR%2010-26.pdf#page=5">Informe INA, noviembre de 2026</a></p>
-        <p class="aj-result-text"><strong>Verificación propuesta.</strong> Tomar muestras aguas arriba y aguas abajo de la descarga observada, y en puntos de uso recreativo. Registrar ubicación, fecha y condiciones del río, analizar <i>E. coli</i> en laboratorio y comparar con el criterio aplicable al uso evaluado.</p>
+        <h2>Qué falta medir para responder la consigna</h2>
+        <p class="aj-result-text">El relevamiento carece de resultados microbiológicos y fisicoquímicos del agua del tramo. Por eso queda abierta la pregunta de si la descarga afectó la calidad del agua y hasta dónde llegó su posible impacto.</p>
+        <p class="aj-result-text"><strong>Verificación propuesta.</strong> Tomar muestras en la descarga y en el río, aguas arriba y aguas abajo de la confluencia. Registrar fecha, ubicación y condiciones del río, y comparar los resultados de laboratorio entre puntos y en distintas fechas.</p>
       </div>
     </section>
 
